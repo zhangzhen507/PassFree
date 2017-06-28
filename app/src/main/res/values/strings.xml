@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PassFree</string>
+
+    <string name="tv_username">User Name</string>
+    <string name="tv_password">Password</string>
+    <string name="et_username">Please Input User Name</string>
+    <string name="et_password">Please Input Password</string>
+
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+
+    <string name="db_name">passfree</string>
+
+    <string name="USER_ID">userid</string>
+
+</resources>

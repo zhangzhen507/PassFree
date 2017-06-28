@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:background="@color/bg_white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dlg_txt_title"
+            android:text="Add A New Code"
+
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/dlg_div_bar"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+             />
+
+        <LinearLayout
+            android:id="@+id/dlg_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dlg_txt_codeName"
+                    android:text="Code Name"
+                    android:textSize="14sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/dlg_editText_codeName"
+                    android:hint="Input code name"
+                    android:textSize="12sp"
+                    android:paddingLeft="20dp"
+                    android:textColorHint="@color/text_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dlg_txt_codePwd"
+                    android:text="Code Password"
+                    android:textSize="14sp"
+
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="20dp"
+
+                    android:inputType="textPassword"
+                    android:hint="Input code password"
+                    android:textColorHint="@color/text_gray"
+                    android:textSize="12sp"
+
+                    android:ems="10"
+                    android:id="@+id/dlg_editText_codePwd" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/dlg_div_bar2"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/div_white" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:background="@color/bg_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/dlg_btn_positive"
+                android:text="OK"
+                android:textSize="16sp"
+                android:textColor="@color/text_white"
+                android:layout_weight="0.3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/dlg_btn_cancel"
+                android:text="Cancel"
+                android:textSize="16sp"
+                android:textColor="@color/text_white"
+                android:layout_weight="0.3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/dlg_btn_autoCreate"
+                android:text="Auto"
+                android:textSize="16sp"
+                android:textColor="@color/text_white"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
